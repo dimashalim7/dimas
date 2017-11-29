@@ -123,10 +123,10 @@ const Excute = async function(User, TargetUsername, TextComment){
 						console.log(chalk`{bold.red [-|Comment Failed]} ({bold.cyan ${account.username}}) ${account.id} => GAGAL`);
 					}
 				}));
-				console.log(chalk`{bold.yellow [!]} Delay For 180000 Milisecond (3 Minute) To Next Block`);
+				console.log(chalk`{bold.yellow [!]} Delay For 120000 Milisecond (3 Minute) To Next Block`);
 				await delay(180000);
 			}
-			console.log(chalk`{bold.yellow [!]} Delay For 300000 Milisecond (5 Minute) To Next Cursor`);
+			console.log(chalk`{bold.yellow [!]} Delay For 30000 Milisecond (5 Minute) To Next Cursor`);
 			await delay(300000);
 		}
 		while(cursor != null);
