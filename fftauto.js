@@ -112,7 +112,6 @@ const Excute = async function(User, TargetUsername, TextComment){
 					await Client.Relationship.create(doLogin.session, account.id);
 					console.log(chalk`{bold.green [+|Followed]} ({bold.cyan ${account.username}}) ${account.id}`);
 				}));
-				}))
 				console.log(chalk`{bold.yellow [!]} Delay For 120000 Milisecond (2 Minute) To Send Comment`);
 				await delay(120000);
 				await Promise.all(account[i].map(async(account) => {
