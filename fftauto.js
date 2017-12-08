@@ -16,7 +16,7 @@ const User = {
     password: 'dimashalim'
 }
 
-const TargetUsername = 'alfysaga';
+const TargetUsername = 'dagelan';
 
 const Login = async function(User){
 
